@@ -15,11 +15,11 @@ import java.util.stream.Collectors;
 
 
 /**
- * This class shows how to do a Depth First Search (DFS).
+ * This class shows how to do a Depth First Search (DFS) on a Binary Tree.
  * @author bgoff
  *
  */
-public class DepthFirstSearch 
+public class BinaryTree 
 {	
 	private static final boolean ASC = true;
     private static final boolean DESC = false;
@@ -295,7 +295,5 @@ public class DepthFirstSearch
 		times = sortByValue(times, ASC);
 		
 		times.forEach((key, value) -> System.out.println("Method : " + key + " Value : " + formatDuration(value)));
-		
-
 	}
 }
